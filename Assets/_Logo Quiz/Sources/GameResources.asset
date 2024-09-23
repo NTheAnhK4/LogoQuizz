@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e3158d55fb42a4cb75c9eb9732841b, type: 3}
+  m_Name: GameResources
+  m_EditorClassIdentifier: 
+  levels:
+  - gameplayType: 1
+    stage1s:
+    - blankNumber: 6
+      alphabetsChar: 0000000003000000080000000300000000000000120000000b0000000f0000000f00000015000000030000000d000000
+      stageAnswer: ADIDAS
+      stageImg: {fileID: 21300000, guid: de4a2f0ba9622b841b5e0939f1e3f7cd, type: 3}
+    - blankNumber: 6
+      alphabetsChar: 000000000c00000000000000190000000e0000000d0000000b0000000900000003000000100000001200000016000000
+      stageAnswer: AMAZON
+      stageImg: {fileID: 21300000, guid: d01e8d021de19d54f90184a83b031a2b, type: 3}
+    - blankNumber: 5
+      alphabetsChar: 000000000f0000000f0000000b000000040000000c0000000e000000140000000900000016000000
+      stageAnswer: APPLE
+      stageImg: {fileID: 21300000, guid: dcf130d3ce7e4994eaa4d9c75af453f9, type: 3}
+    - blankNumber: 6
+      alphabetsChar: 0200000007000000000000000d000000040000000b000000000000000700000004000000110000001300000016000000
+      stageAnswer: CHANEL
+      stageImg: {fileID: 21300000, guid: 4bdc912df6b9a4241a211d28666adc93, type: 3}
+    - blankNumber: 7
+      alphabetsChar: 05000000080000001100000004000000050000000e0000001700000000000000030000000a000000070000000d0000001700000013000000
+      stageAnswer: FIREFOX
+      stageImg: {fileID: 21300000, guid: 841abf6f4f9f1d5478fd4f167e0dac29, type: 3}
+    - blankNumber: 5
+      alphabetsChar: 060000000c00000000000000080000000b000000000000000a000000050000000f00000015000000
+      stageAnswer: GMAIL
+      stageImg: {fileID: 21300000, guid: fcc8e747751fd4f4a9419697d527ea79, type: 3}
+    - blankNumber: 6
+      alphabetsChar: 060000000e0000000e000000060000000b0000000400000000000000060000000c000000110000001500000013000000
+      stageAnswer: GOOGLE
+      stageImg: {fileID: 21300000, guid: ddae0deb5583dc349a1b5d354785e153, type: 3}
+    - blankNumber: 5
+      alphabetsChar: 060000001400000002000000020000000800000000000000160000000e0000000400000001000000
+      stageAnswer: GUCCI
+      stageImg: {fileID: 21300000, guid: 895176ec76a30bd4e83041eac596972f, type: 3}
+    - blankNumber: 3
+      alphabetsChar: 0a0000000500000002000000000000000700000017000000
+      stageAnswer: KFC
+      stageImg: {fileID: 21300000, guid: 68fd1b55ac096b14d855bd19ebad5b68, type: 3}
+    - blankNumber: 2
+      alphabetsChar: 0b000000060000000500000008000000
+      stageAnswer: LG
+      stageImg: {fileID: 21300000, guid: 8e108987989f1ee4ba0b48ebbfb1f9d4, type: 3}
+    stage2s: []
+    stage3s: []
+  - gameplayType: 2
+    stage1s: []
+    stage2s:
+    - stageImg: {fileID: 21300000, guid: 8bdf884aad7c177489f548dccff6db03, type: 3}
+      question: What is the brand of this Logo?
+      listOptionContents:
+      - AFA
+      - Adidas
+      - Apple
+      - Amazon
+      correctIndex: 0
+    - stageImg: {fileID: 21300000, guid: 68c9d8dac9c154c78a81912758e4fa3d, type: 3}
+      question: What is this country?
+      listOptionContents:
+      - Vietnam
+      - Korea
+      - China
+      - Taiwan
+      correctIndex: 2
+    - stageImg: {fileID: 21300000, guid: 1f79f7f22f44f974593034315c380586, type: 3}
+      question: What is the brand of this logo?
+      listOptionContents:
+      - Walmart
+      - Xbox
+      - T Mobile
+      - Toyota
+      correctIndex: 1
+    - stageImg: {fileID: 21300000, guid: f697445a9b1fb473e937a4fec1fbdbd4, type: 3}
+      question: What is this country?
+      listOptionContents:
+      - England
+      - Neatherlands
+      - Russia
+      - France
+      correctIndex: 3
+    - stageImg: {fileID: 21300000, guid: b262888b51e2b451789cfb125ac89a56, type: 3}
+      question: What is this country?
+      listOptionContents:
+      - Japan
+      - Thailand
+      - Korea
+      - Poland
+      correctIndex: 0
+    - stageImg: {fileID: 21300000, guid: 627c076ef5a1184479ec86befd17f125, type: 3}
+      question: What is the brand of this logo?
+      listOptionContents:
+      - KFC
+      - Microsoft
+      - Snapchat
+      - Tide
+      correctIndex: 1
+    - stageImg: {fileID: 21300000, guid: 136d74cafc79ae44bb10de5242fe24b0, type: 3}
+      question: What is the brand of this logo?
+      listOptionContents:
+      - Spotify
+      - Twitter
+      - Pizza Hut
+      - Pepsi
+      correctIndex: 2
+    - stageImg: {fileID: 21300000, guid: 79e75c80789824f99a1dfe1c4b6acbb6, type: 3}
+      question: What is this country?
+      listOptionContents:
+      - Poland
+      - Portugal
+      - Turkey
+      - Indonesia
+      correctIndex: 3
+    - stageImg: {fileID: 21300000, guid: 7af9652001132497ba7088f0b27ebe03, type: 3}
+      question: What is this country?
+      listOptionContents:
+      - Ukraine
+      - Russia
+      - Spain
+      - Sweden
+      correctIndex: 1
+    - stageImg: {fileID: 21300000, guid: dcfab96c6f2f16d42b491b52cc55019f, type: 3}
+      question: What is the brand of this logo?
+      listOptionContents:
+      - Gucci
+      - Google
+      - Instagram
+      - Playstation
+      correctIndex: 2
+    stage3s: []
+  - gameplayType: 3
+    stage1s: []
+    stage2s: []
+    stage3s:
+    - stageImg: {fileID: 21300000, guid: 77f78b7e81dea5a4cad6bdb9f2b91b29, type: 3}
+      trueLogo: {fileID: 21300000, guid: 77f78b7e81dea5a4cad6bdb9f2b91b29, type: 3}
+      falseLogo: {fileID: 21300000, guid: 6f9269e787bfc0642a368ea076d9d199, type: 3}
+    - stageImg: {fileID: 21300000, guid: 6f529c317a1f54b4c90dd60b19b9ec0d, type: 3}
+      trueLogo: {fileID: 21300000, guid: 6f529c317a1f54b4c90dd60b19b9ec0d, type: 3}
+      falseLogo: {fileID: 21300000, guid: 95fb442c1cbedff40802dc7339a68784, type: 3}
+    - stageImg: {fileID: 21300000, guid: 4f6b449cb0006464c897ad679c9d7605, type: 3}
+      trueLogo: {fileID: 21300000, guid: 4f6b449cb0006464c897ad679c9d7605, type: 3}
+      falseLogo: {fileID: 21300000, guid: 1a8e4fb343187804bb73e338b476d8b3, type: 3}
+    - stageImg: {fileID: 21300000, guid: b0747649f84334b478708458af557a9b, type: 3}
+      trueLogo: {fileID: 21300000, guid: b0747649f84334b478708458af557a9b, type: 3}
+      falseLogo: {fileID: 21300000, guid: 4125f31f3aa9e074c96fb120a5cd5704, type: 3}
+    - stageImg: {fileID: 21300000, guid: 85ced4bc850ba8f4a9374f68334fc972, type: 3}
+      trueLogo: {fileID: 21300000, guid: 85ced4bc850ba8f4a9374f68334fc972, type: 3}
+      falseLogo: {fileID: 21300000, guid: 6e160e4513cd2cb469e58a8c4029d2f2, type: 3}
+    - stageImg: {fileID: 21300000, guid: 400e30322cc82414dbaa9de1db9675e6, type: 3}
+      trueLogo: {fileID: 21300000, guid: 400e30322cc82414dbaa9de1db9675e6, type: 3}
+      falseLogo: {fileID: 21300000, guid: 4d57534ea55fb31428c731971f62d958, type: 3}
+    - stageImg: {fileID: 21300000, guid: b3983602df9234247a38753a777b267f, type: 3}
+      trueLogo: {fileID: 21300000, guid: b3983602df9234247a38753a777b267f, type: 3}
+      falseLogo: {fileID: 21300000, guid: cb796b1f1439efd418db2c2444a28481, type: 3}
+    - stageImg: {fileID: 21300000, guid: 6c7bdd8d6d944714089d994e81684514, type: 3}
+      trueLogo: {fileID: 21300000, guid: 6c7bdd8d6d944714089d994e81684514, type: 3}
+      falseLogo: {fileID: 21300000, guid: 7152126b9ae4e604f9df5dc368514ab3, type: 3}
+    - stageImg: {fileID: 21300000, guid: 9a6cafd218bf6894eabb198411536348, type: 3}
+      trueLogo: {fileID: 21300000, guid: 9a6cafd218bf6894eabb198411536348, type: 3}
+      falseLogo: {fileID: 21300000, guid: 5eed64a1f885c3f42a96357e8b20ccf4, type: 3}
+    - stageImg: {fileID: 21300000, guid: 8879e44db91bcd74fb8cfbdea96fc5be, type: 3}
+      trueLogo: {fileID: 21300000, guid: 8879e44db91bcd74fb8cfbdea96fc5be, type: 3}
+      falseLogo: {fileID: 21300000, guid: 2d26a3f9346a6cc4dacb8a15b104c200, type: 3}
